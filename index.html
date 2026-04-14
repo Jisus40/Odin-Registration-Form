@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="image">
+		<div class="logo">
+			<div></div>
+			<p>Tempus</p>
+		</div>
+	</div>
+	<div class="container">
+		<section class="description">
+			<h1>Create your own time capsule</h1>
+			<p>At Tempus, our goal is for people to create their own time capsule for a future they choose. The idea is to create a message and, if you wish, attach photos and videos for your future self. We'll take care of sending everything to you at the time you specify. We invite you to create your own time capsule and decide when you want to receive it.</p>
+		</section>
+		<section class="form">
+			<form action="#" method="post">
+				<fieldset>
+					<legend>Enter your personal information:</legend>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" required>
+					<label for="lastName">Last Name</label>
+					<input type="text" id="lastName" name="lastName" required>
+				</fieldset>
+				<fieldset>
+					<legend>Enter your contact information.</legend>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required>
+					<label for="phone">Phone Number</label>
+					<input type="tel" id="phone" name="phone">
+				</fieldset>
+				<fieldset>
+					<legend>Write your message:</legend>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</fieldset>
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+	</div>
+</body>
+</html>
